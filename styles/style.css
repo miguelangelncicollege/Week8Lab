@@ -1,5 +1,20 @@
+@media (max-width: 800px)
+{
+	.flex-container
+	{
+		display: flex
+		flex-direction: column;
+	}
+}
+
 body
 {
 	text-align: center;
 	background: #fdfcf7;
+}
+
+.flex-container
+{
+	display: flex
+	flex-direction: column;
 }
